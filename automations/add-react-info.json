@@ -1,0 +1,58 @@
+{
+    "id": "kvnwq45msxb1e7g3odf",
+    "name": "Add React availability to the description",
+    "description": "Adds info about React availability to component description.",
+    "color": "yellow",
+    "actions": [
+      {
+        "id": "kvnwqhjruendyp0zpxg",
+        "command": {
+          "name": "getCurrentSelection",
+          "metadata": {},
+          "title": "",
+          "description": ""
+        },
+        "actions": [
+          {
+            "id": "kvnwz8lqihkuhxb4hwf",
+            "command": {
+              "name": "setVariable",
+              "metadata": {
+                "key": "currentDescription",
+                "value": "{{this.description}}"
+              },
+              "title": "",
+              "description": ""
+            },
+            "actions": []
+          },
+          {
+            "id": "kvnx3yjspdrc1mxmy5",
+            "command": {
+              "name": "setComponentDescription",
+              "metadata": {
+                "componentDescription": "{{currentDescription}}\n---\n⚛️Available in React.",
+                "documentationLink": "⚠️⚠️⚠️"
+              },
+              "title": "",
+              "description": ""
+            },
+            "actions": []
+          },
+          {
+            "id": "kvnx7h925i4fxim3e8o",
+            "command": {
+              "name": "showMessage",
+              "metadata": {
+                "message": "It's there. 🎉 (Don't forget to add also a link to documentation page!)"
+              },
+              "title": "",
+              "description": ""
+            },
+            "actions": []
+          }
+        ]
+      }
+    ],
+    "createdAt": 1636209222538
+  }
