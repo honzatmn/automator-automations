@@ -11,3 +11,8 @@ Deprecates a component in a consistent way.
 ### [Add React availability to the description](https://github.com/honzatmn/automator-automations/blob/main/automations/add-react-info.json)
 
 Adds info about React availability to component description.
+
+### [Select layer by name](https://github.com/honzatmn/automator-automations/blob/main/automations/select-layers-by-name.json)
+
+Select all layers by defined name.
+Example is for selecting all layers with "Icon" name, but can be easily adjusted to anything else.

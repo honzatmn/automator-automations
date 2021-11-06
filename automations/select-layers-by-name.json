@@ -1,0 +1,47 @@
+{
+    "id": "kvnsz9rov89r8d43lme",
+    "name": "Select all icons",
+    "description": "Select all layers named \"Icon\"",
+    "color": "purple",
+    "actions": [
+      {
+        "id": "kvnthiizhooqlpy91z",
+        "command": {
+          "name": "getCurrentSelection",
+          "metadata": {},
+          "title": "",
+          "description": ""
+        },
+        "actions": [
+          {
+            "id": "kvnubp3oob9kfkssr4n",
+            "command": {
+              "name": "find",
+              "metadata": {
+                "findType": "findAll",
+                "location": "parentAction",
+                "key": "name",
+                "condition": "is",
+                "value": "Icon"
+              },
+              "title": "",
+              "description": ""
+            },
+            "actions": [
+              {
+                "id": "kvnuc1jrd07k2sgkteu",
+                "command": {
+                  "name": "setSelection",
+                  "metadata": {},
+                  "title": "",
+                  "description": ""
+                },
+                "actions": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1636202931252
+  }
