@@ -14,42 +14,55 @@
         },
         "actions": [
           {
-            "id": "kvnwz8lqihkuhxb4hwf",
+            "id": "kvnxnvmnix0v6zah2k",
             "command": {
-              "name": "setVariable",
-              "metadata": {
-                "key": "currentDescription",
-                "value": "{{this.description}}"
-              },
+              "name": "forEach",
+              "metadata": {},
               "title": "",
               "description": ""
             },
-            "actions": []
-          },
-          {
-            "id": "kvnx3yjspdrc1mxmy5",
-            "command": {
-              "name": "setComponentDescription",
-              "metadata": {
-                "componentDescription": "{{currentDescription}}\n---\n⚛️Available in React.",
-                "documentationLink": "⚠️⚠️⚠️"
-              },
-              "title": "",
-              "description": ""
-            },
-            "actions": []
-          },
-          {
-            "id": "kvnx7h925i4fxim3e8o",
-            "command": {
-              "name": "showMessage",
-              "metadata": {
-                "message": "It's there. 🎉 (Don't forget to add also a link to documentation page!)"
-              },
-              "title": "",
-              "description": ""
-            },
-            "actions": []
+            "actions": [
+              {
+                "id": "kvny4sdbqrx5rguioco",
+                "command": {
+                  "name": "if",
+                  "metadata": {
+                    "condition": "doesNotContain",
+                    "input": "{{item.description}}",
+                    "value": "Available in React"
+                  },
+                  "title": "",
+                  "description": ""
+                },
+                "actions": [
+                  {
+                    "id": "kvnx3yjspdrc1mxmy5",
+                    "command": {
+                      "name": "setComponentDescription",
+                      "metadata": {
+                        "componentDescription": "{{item.description}}\n---\n⚛️Available in React.",
+                        "documentationLink": "https://example.com/"
+                      },
+                      "title": "",
+                      "description": ""
+                    },
+                    "actions": []
+                  },
+                  {
+                    "id": "kvny59qkkikqdlffv7s",
+                    "command": {
+                      "name": "showMessage",
+                      "metadata": {
+                        "message": "React link added to {{item.name}}. 🎉 (Don't forget to add also a link to documentation page!)"
+                      },
+                      "title": "",
+                      "description": ""
+                    },
+                    "actions": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
