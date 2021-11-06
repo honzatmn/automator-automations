@@ -1,0 +1,60 @@
+{
+    "id": "kvnu6wj66432odlcliw",
+    "name": "Set custom labels",
+    "description": "Replaces text content with \"Custom label\"",
+    "color": "purple",
+    "actions": [
+      {
+        "id": "kvnu7igozslrvl0jz7g",
+        "command": {
+          "name": "getCurrentSelection",
+          "metadata": {},
+          "title": "",
+          "description": ""
+        },
+        "actions": [
+          {
+            "id": "kvnu7rcja8yqeawe16",
+            "command": {
+              "name": "find",
+              "metadata": {
+                "findType": "findAll",
+                "location": "parentAction",
+                "key": "name",
+                "condition": "is",
+                "value": "Label"
+              },
+              "title": "",
+              "description": ""
+            },
+            "actions": [
+              {
+                "id": "kvnu8g9v9qx2tvjo83o",
+                "command": {
+                  "name": "setSelection",
+                  "metadata": {},
+                  "title": "",
+                  "description": ""
+                },
+                "actions": [
+                  {
+                    "id": "kvnunmecwjd0rjqymjs",
+                    "command": {
+                      "name": "setTextCharacters",
+                      "metadata": {
+                        "characters": "Custom label"
+                      },
+                      "title": "",
+                      "description": ""
+                    },
+                    "actions": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1636204966962
+  }

@@ -16,3 +16,7 @@ Adds info about React availability to component description.
 
 Select all layers by defined name.
 Example is for selecting all layers with "Icon" name, but can be easily adjusted to anything else.
+
+### [Set custom label](https://github.com/honzatmn/automator-automations/blob/main/automations/select-custom-label.json)
+
+Replaces text content with "Custom label". The layer needs to be named "Label". Easily customizable though.
