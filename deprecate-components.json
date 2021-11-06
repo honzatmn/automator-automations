@@ -1,0 +1,79 @@
+{
+    "id": "kvnupwqjr1ttms20wz",
+    "name": "Deprecate component",
+    "description": "Deprecates a component in a consistent way.",
+    "color": "red",
+    "actions": [
+      {
+        "id": "kvnuq1zs9m2l9lib7sm",
+        "command": {
+          "name": "getCurrentSelection",
+          "metadata": {},
+          "title": "",
+          "description": ""
+        },
+        "actions": [
+          {
+            "id": "kvnuqtfizcpoj90xn5",
+            "command": {
+              "name": "addFill",
+              "metadata": {
+                "fillColor": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 254,
+                      "g": 240,
+                      "b": 240,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              "title": "",
+              "description": ""
+            },
+            "actions": []
+          },
+          {
+            "id": "kvnuraiujuff3b9f1al",
+            "command": {
+              "name": "setName",
+              "metadata": {
+                "layerName": "🚫 {{this.name}}"
+              },
+              "title": "",
+              "description": ""
+            },
+            "actions": []
+          },
+          {
+            "id": "kvnut6gp853k5z48h6g",
+            "command": {
+              "name": "setComponentDescription",
+              "metadata": {
+                "componentDescription": "🚫 This component is deprecated. \n\nUse {componentName} instead, please.",
+                "documentationLink": ""
+              },
+              "title": "",
+              "description": ""
+            },
+            "actions": []
+          },
+          {
+            "id": "kvnv4kp33uao7uawova",
+            "command": {
+              "name": "showMessage",
+              "metadata": {
+                "message": "Component was deprecated."
+              },
+              "title": "",
+              "description": ""
+            },
+            "actions": []
+          }
+        ]
+      }
+    ],
+    "createdAt": 1636205853691
+  }
