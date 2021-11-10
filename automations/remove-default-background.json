@@ -1,7 +1,7 @@
 {
     "id": "kvp2qtu8l0ugomueg9e",
-    "name": "Remove default #fff background",
-    "description": "Checks if the only background on the frame is hidden #fff background and if it's true, it removes it.    ",
+    "name": "Remove default frame background",
+    "description": "Checks if the only background on the frame is hidden #fff background and if it's true, it removes it.",
     "color": "yellow",
     "actions": [
       {
@@ -29,7 +29,7 @@
                   "metadata": {
                     "findType": "findAll",
                     "location": "parentAction",
-                    "key": "type",
+                    "key": "",
                     "condition": "is",
                     "value": "FRAME"
                   },
@@ -38,27 +38,38 @@
                 },
                 "actions": [
                   {
-                    "id": "kvtzk5iy018nfrcvizr7f",
+                    "id": "kvu1v82hnjvns5ix8p",
                     "command": {
-                      "name": "if",
-                      "metadata": {
-                        "input": "{{item.fills.0.visible}}",
-                        "condition": "is",
-                        "value": "false"
-                      },
+                      "name": "forEach",
+                      "metadata": {},
                       "title": "",
                       "description": ""
                     },
                     "actions": [
                       {
-                        "id": "kvtzl5yqv7vke79p0qo",
+                        "id": "kvtzk5iy018nfrcvizr7f",
                         "command": {
-                          "name": "removeFills",
-                          "metadata": {},
+                          "name": "if",
+                          "metadata": {
+                            "input": "{{item.fills.0.visible}}",
+                            "condition": "is",
+                            "value": "false"
+                          },
                           "title": "",
                           "description": ""
                         },
-                        "actions": []
+                        "actions": [
+                          {
+                            "id": "kvtzl5yqv7vke79p0qo",
+                            "command": {
+                              "name": "removeFills",
+                              "metadata": {},
+                              "title": "",
+                              "description": ""
+                            },
+                            "actions": []
+                          }
+                        ]
                       }
                     ]
                   }
