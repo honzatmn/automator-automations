@@ -23,4 +23,4 @@ Replaces text content with "Custom label". The layer needs to be named "Label". 
 
 ### [Remove default frame background](https://github.com/honzatmn/automator-automations/blob/main/automations/remove-default-background.json)
 
-Checks if the only background on the frame is hidden #fff background and if it's true, it removes it.
+Small automation removing the default (hidden) #FFFFFF background from selected frames and their nested frames. Good for cleaning component frames.
