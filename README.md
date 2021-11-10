@@ -20,3 +20,7 @@ Example is for selecting all layers with "Icon" name, but can be easily adjusted
 ### [Set custom label](https://github.com/honzatmn/automator-automations/blob/main/automations/select-custom-label.json)
 
 Replaces text content with "Custom label". The layer needs to be named "Label". Easily customizable though.
+
+### [Remove default background](https://github.com/honzatmn/automator-automations/blob/main/automations/remove-default-background.json)
+
+Checks if the only background is hidden #fff background and if yes, it removes it.

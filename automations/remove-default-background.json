@@ -1,0 +1,73 @@
+{
+    "id": "kvp2qtu8l0ugomueg9e",
+    "name": "Remove default #fff background",
+    "description": "Checks if the only background is hidden #fff background and if yes, it removes it.",
+    "color": "yellow",
+    "actions": [
+      {
+        "id": "kvp2r8z2ogcp3reffli",
+        "command": {
+          "name": "getCurrentSelection",
+          "metadata": {},
+          "title": "",
+          "description": ""
+        },
+        "actions": [
+          {
+            "id": "kvp2z1z8a1gkjjskxqd",
+            "command": {
+              "name": "forEach",
+              "metadata": {},
+              "title": "",
+              "description": ""
+            },
+            "actions": [
+              {
+                "id": "kvp2sa7dvt97m70jmsc",
+                "command": {
+                  "name": "find",
+                  "metadata": {
+                    "findType": "findAll",
+                    "location": "parentAction",
+                    "key": "type",
+                    "condition": "is",
+                    "value": "FRAME"
+                  },
+                  "title": "",
+                  "description": ""
+                },
+                "actions": [
+                  {
+                    "id": "kvtzk5iy018nfrcvizr7f",
+                    "command": {
+                      "name": "if",
+                      "metadata": {
+                        "input": "{{item.fills.0.visible}}",
+                        "condition": "is",
+                        "value": "false"
+                      },
+                      "title": "",
+                      "description": ""
+                    },
+                    "actions": [
+                      {
+                        "id": "kvtzl5yqv7vke79p0qo",
+                        "command": {
+                          "name": "removeFills",
+                          "metadata": {},
+                          "title": "",
+                          "description": ""
+                        },
+                        "actions": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1636279799696
+  }
