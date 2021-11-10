@@ -1,7 +1,7 @@
 {
     "id": "kvp2qtu8l0ugomueg9e",
     "name": "Remove default #fff background",
-    "description": "Checks if the only background is hidden #fff background and if yes, it removes it.",
+    "description": "Checks if the only background on the frame is hidden #fff background and if it's true, it removes it.    ",
     "color": "yellow",
     "actions": [
       {

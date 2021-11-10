@@ -21,6 +21,6 @@ Example is for selecting all layers with "Icon" name, but can be easily adjusted
 
 Replaces text content with "Custom label". The layer needs to be named "Label". Easily customizable though.
 
-### [Remove default background](https://github.com/honzatmn/automator-automations/blob/main/automations/remove-default-background.json)
+### [Remove default frame background](https://github.com/honzatmn/automator-automations/blob/main/automations/remove-default-background.json)
 
-Checks if the only background is hidden #fff background and if yes, it removes it.
+Checks if the only background on the frame is hidden #fff background and if it's true, it removes it.
