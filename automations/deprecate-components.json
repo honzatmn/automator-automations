@@ -1,6 +1,6 @@
 {
   "id": "kvnupwqjr1ttms20wz",
-  "name": "Deprecate component",
+  "name": "Deprecate a component",
   "description": "Deprecates a component in a consistent way.",
   "color": "red",
   "actions": [
@@ -48,11 +48,24 @@
                   "actions": []
                 },
                 {
+                  "id": "kwyvjraurdvhzkm022",
+                  "command": {
+                    "name": "askForInput",
+                    "metadata": {
+                      "inputVariable": "newComponent",
+                      "inputPrompt": "New component name"
+                    },
+                    "title": "",
+                    "description": ""
+                  },
+                  "actions": []
+                },
+                {
                   "id": "kvny8dj3qv29u5d154b",
                   "command": {
                     "name": "setComponentDescription",
                     "metadata": {
-                      "componentDescription": "🚫 This component is deprecated. \n\nUse {componentName} instead, please.",
+                      "componentDescription": "🚫 This component is deprecated. \n\nUse {{newComponent}} instead, please.",
                       "documentationLink": ""
                     },
                     "title": "",
