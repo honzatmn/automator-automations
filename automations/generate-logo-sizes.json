@@ -1,0 +1,212 @@
+{
+  "id": "kyvbqh65a6kc4wb9xjw",
+  "name": "Generate logo sizes",
+  "description": "Generates different logo sizes for variants",
+  "color": "yellow",
+  "actions": [
+    {
+      "id": "kworvdzmdw6ulazlrx6",
+      "command": {
+        "name": "getCurrentSelection",
+        "metadata": {},
+        "title": "",
+        "description": ""
+      },
+      "actions": [
+        {
+          "id": "kworngfm2wm8by4fdzk",
+          "command": {
+            "name": "duplicate",
+            "metadata": {},
+            "title": "",
+            "description": ""
+          },
+          "actions": [
+            {
+              "id": "kworohayuqqvnvys7dl",
+              "command": {
+                "name": "setName",
+                "metadata": {
+                  "layerName": "Size=16x16"
+                },
+                "title": "",
+                "description": ""
+              },
+              "actions": []
+            },
+            {
+              "id": "kwos0g7zogc80hnve",
+              "command": {
+                "name": "setPosition",
+                "metadata": {
+                  "x": "84"
+                },
+                "title": "",
+                "description": ""
+              },
+              "actions": []
+            },
+            {
+              "id": "kwosq4sgs8yw43q53k",
+              "command": {
+                "name": "setDimensions",
+                "metadata": {
+                  "width": "16",
+                  "height": "16"
+                },
+                "title": "",
+                "description": ""
+              },
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "kyvbulga7gcik73torw",
+          "command": {
+            "name": "duplicate",
+            "metadata": {},
+            "title": "",
+            "description": ""
+          },
+          "actions": [
+            {
+              "id": "kwos9msvboa13j2u935",
+              "command": {
+                "name": "setName",
+                "metadata": {
+                  "layerName": "Size=20x20"
+                },
+                "title": "",
+                "description": ""
+              },
+              "actions": []
+            },
+            {
+              "id": "kyvbv5wfjeez930aux8",
+              "command": {
+                "name": "setDimensions",
+                "metadata": {
+                  "width": "20",
+                  "height": "20"
+                },
+                "title": "",
+                "description": ""
+              },
+              "actions": []
+            },
+            {
+              "id": "kworxe1impv1grqgfrg",
+              "command": {
+                "name": "setPosition",
+                "metadata": {
+                  "x": "128"
+                },
+                "title": "",
+                "description": ""
+              },
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "kworo0o9chrllzyllsu",
+          "command": {
+            "name": "duplicate",
+            "metadata": {},
+            "title": "",
+            "description": ""
+          },
+          "actions": [
+            {
+              "id": "kworouxgak9j5n5j1d4",
+              "command": {
+                "name": "setName",
+                "metadata": {
+                  "layerName": "Size=24x24"
+                },
+                "title": "",
+                "description": ""
+              },
+              "actions": []
+            },
+            {
+              "id": "kwos132gh9k0ckv7079",
+              "command": {
+                "name": "setPosition",
+                "metadata": {
+                  "x": "176"
+                },
+                "title": "",
+                "description": ""
+              },
+              "actions": []
+            },
+            {
+              "id": "kwosqi28bzd2zmyj9ym",
+              "command": {
+                "name": "setDimensions",
+                "metadata": {
+                  "width": "24",
+                  "height": "24"
+                },
+                "title": "",
+                "description": ""
+              },
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "kworo5jx527v63h39eq",
+          "command": {
+            "name": "duplicate",
+            "metadata": {},
+            "title": "",
+            "description": ""
+          },
+          "actions": [
+            {
+              "id": "kworpa62f6ehpxdarb",
+              "command": {
+                "name": "setName",
+                "metadata": {
+                  "layerName": "Size=28x28"
+                },
+                "title": "",
+                "description": ""
+              },
+              "actions": []
+            },
+            {
+              "id": "kwos27n7l8pp21ece3",
+              "command": {
+                "name": "setPosition",
+                "metadata": {
+                  "x": "228"
+                },
+                "title": "",
+                "description": ""
+              },
+              "actions": []
+            },
+            {
+              "id": "kwosr8zyxx4kp9w8nl",
+              "command": {
+                "name": "setDimensions",
+                "metadata": {
+                  "width": "28",
+                  "height": "28"
+                },
+                "title": "",
+                "description": ""
+              },
+              "actions": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "createdAt": 1643188043885
+}
